@@ -19,22 +19,21 @@ This Repository demonstrates the use of PyCaret, an open-source, low-code machin
 
 
 # Project Structure
-The project is organized into several scripts, each focusing on a different machine learning task:
-classification_example.py: Demonstrates classification using the diabetes dataset.
-regression_example.py: Shows regression analysis using the diabetes dataset.
-clustering_example.py: Illustrates clustering techniques.
-anomaly_detection_example.py: Exemplifies anomaly detection using the anomaly dataset.
-association_rules_example.py: Demonstrates association rule mining with synthetic transaction data.
-time_series_example.py: Shows time series forecasting using the gold dataset.
-Features
-This project showcases various capabilities of PyCaret:
-Classification: Comparing different models, plotting confusion matrices, and evaluating model performance.
-Regression: Setting up experiments, comparing models, and making predictions.
-Clustering: Creating and visualizing clustering models using KMeans.
-Anomaly Detection: Using Isolation Forest for detecting anomalies in data.
-Association Rule Mining: Generating synthetic transaction data and discovering association rules.
-Time Series Forecasting: Loading time series data, comparing models, and making forecasts.
-Model Deployment: Creating web applications for model deployment using Gradio.
-Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
+## Scripts:
 
+- classification_example.py: Classification with diabetes data.
+- regression_example.py: Regression with diabetes data.
+- clustering_example.py: Clustering techniques.
+- anomaly_detection_example.py: Anomaly detection with Isolation Forest.
+- association_rules_example.py: Association rule mining on synthetic data.
+- time_series_example.py: Time series forecasting with gold data.
+## Features:
+
+- Classification: Model comparison, confusion matrices, performance evaluation.
+- Regression: Experiment setup, model comparison, predictions.
+- Clustering: KMeans visualization.
+- Anomaly Detection: Isolation Forest for anomaly detection.
+- Association Rules: Discover rules from synthetic transactions.
+- Time Series: Model comparison and forecasting.
+- Model Deployment: Gradio demos for web apps.
+- Gradio Demos: Interactive Gradio apps showcasing each task (classification, regression, clustering, etc.).
